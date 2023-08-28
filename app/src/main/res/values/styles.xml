@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="Widget.Theme.Ev2.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.Ev2.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- Other theme attributes -->
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+</resources>

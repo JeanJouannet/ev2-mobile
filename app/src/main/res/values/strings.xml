@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">ev2</string>
+    <string name="no_product">No hay productos para mostrar.</string>
+    <string name="product">Producto</string>
+    <string name="bought">Comprado</string>
+    <string name="notBought">Por comprar</string>
+    <string name="delete">Borrar</string>
+    <string name="add_product">Agregar producto</string>
+    <string name="back">Volver</string>
+    <string name="product_added">Producto añadido</string>
+
+
+</resources>
