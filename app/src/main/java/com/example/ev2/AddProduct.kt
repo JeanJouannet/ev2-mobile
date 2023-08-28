@@ -110,14 +110,13 @@ class AddProduct : ComponentActivity() {
             if (isSnackbarVisible) {
                 Snackbar(
                     modifier = Modifier.padding(16.dp),
-                    containerColor = Color.Gray, // Customize the color
+                    containerColor = Color.Gray,
 
                 ) {
                     Text(text = resources.getString(R.string.product_added))
                 }
                 LaunchedEffect(isSnackbarVisible) {
                     if (isSnackbarVisible) {
-                        // Delay for approximately 1 second (1000 milliseconds)
                         delay(1500)
                         isSnackbarVisible = false
                     }
